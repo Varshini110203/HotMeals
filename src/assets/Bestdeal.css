@@ -1,0 +1,47 @@
+.deal-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  /* padding-left: 150px; */
+}
+
+.bestTitle h4 {
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 43px;
+  padding: 0;
+}
+
+.bestTitle h4 span {
+  color: rgba(255, 179, 14, 1);
+}
+
+.bestSubtitle {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(97, 97, 97, 0.69);
+}
+
+.proceed {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 184, 0, 1),
+    rgba(255, 138, 0, 1)
+  ); /* Gradient colors */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  max-width: 850px;
+  font-family: "Source Sans 3";
+  font-weight: 900;
+  font-size: 18px;
+}
+.leafImg img {
+  margin-top: 50px;
+  max-width: 500px;
+  height: auto;
+}

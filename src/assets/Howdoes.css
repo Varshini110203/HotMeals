@@ -1,0 +1,43 @@
+.container {
+  padding-top: 80px;  /* instead of margin-top on .howDoes */
+}
+
+.howDoes{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    color: rgba(241, 114, 40, 1);
+    font-family: 'Open Sans';
+    margin-top: 20px;
+}
+.discounts{
+   display: flex;
+   flex-direction: row;
+   padding: 4px;
+}
+
+.discounts img{
+    height: 136px;
+    width: 136px;
+}
+.discount-card span{
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(90deg, rgba(251, 60, 0, 1), rgba(255, 184, 0, 1)); /* Gradient colors */
+    -webkit-background-clip: text; /* Ensures the gradient is clipped to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+}
+.vertical{
+    border-left: 2px solid rgba(207, 207, 207, 1);
+    height: 130px;
+}
+.howDoes-container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 181, 21, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5 27 11 rgba(255, 181, 21, 0.1);
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

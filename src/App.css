@@ -1,0 +1,17 @@
+.search-food-wrapper-circle{
+    background-color: rgba(246, 245, 238, 1);
+}
+.search-food-wrapper-circle h4{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-size: 43px;
+}
+
+.popularItems h4{
+    font-family: 'Source Sans 3';
+    font-weight: 700;
+    font-size: 43px;
+    text-align: center;
+}
